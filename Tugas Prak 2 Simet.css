@@ -1,0 +1,183 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-list ul {
+    display: flex;
+    gap: 15px;
+}
+
+.header-list ul li a {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header-list ul li a:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+/* Hero section styles */
+.copy-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.copy-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.copy-container span {
+    color: #4CAF50;
+}
+
+.copy-container h2 {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Section styling */
+.contain {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Content wrapper styles */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contents-item {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.contents-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+.contain-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    margin-top: 30px;
+}
+
+.contain-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contain-form p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.contain-form input,
+.contain-form textarea,
+.contain-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-submit {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact-submit:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-list ul li a {
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.footer-list ul li a:hover {
+    text-decoration: underline;
+}
